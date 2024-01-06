@@ -1,0 +1,41 @@
+.todo-box {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-input {
+  width: 450px;
+  height: 20px;
+  outline: none;
+  border: none;
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.todo-box {
+  width: 500px;
+  height: 20px;
+  outline: navajowhite;
+  border: 1px solid #dedede;
+  border-radius: 40px;
+  padding: 12px; 
+}
+
+.todo-submit {
+  width: 70px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -7px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  border: 0;
+  background-color: transparent;
+  color: #575C69;
+}
+
+.todo-submit:hover {
+  cursor: pointer;
+}
+

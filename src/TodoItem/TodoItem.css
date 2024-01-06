@@ -1,0 +1,41 @@
+.list-container {
+  margin-top: 10px;
+}
+
+.check {
+  margin-right: 10px;
+}
+
+.list-box {
+  width: 500px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+}
+
+#props {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.del-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.del-btn:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
